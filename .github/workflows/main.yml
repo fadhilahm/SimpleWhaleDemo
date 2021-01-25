@@ -39,6 +39,6 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ushamandya/simplewhale:latest
+          tags: fadhilahm/simplewhale:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
